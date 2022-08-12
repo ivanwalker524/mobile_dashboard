@@ -30,7 +30,9 @@
             <div>
                 <h1>Welcome to <span>MOBILE PHONE</span></h1>
                 <P>Already have an acccount ?</P>
-                <input type="submit" value="Sign-In">
+                <a href="./login.php">
+                    <input type="submit" value="Sign-In">
+                </a>
             </div>
         </div>
         <div class="create">
@@ -38,7 +40,7 @@
                 <h1>Create your Account</h1>
                 <form action="insert.php" method="post">
                     <input type="text" name="usersname" placeholder="User Name"><br><br>
-                    <input type="text" name="email" placeholder="Email"><br><br>
+                    <input type="email" name="email" placeholder="Email"><br><br>
                     <input type="password" name="password" placeholder="Password"><br><br>
                     <input type="password" name="confirmpas" placeholder="Confirm Password"><br><br>
                     <label for="confirm" class="check_confirm">
@@ -52,7 +54,7 @@
     </div>
     <style>
         <?php
-        include ("./index.css")
+            include ("./css/index.css");
         ?>
     </style>
 </body>

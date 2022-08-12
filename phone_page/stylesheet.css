@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(36, 34, 34);
+  text-align: center;
+}
+
+#welcome {
+  color: white;
+  font-size: 60px;
+  margin-top:  150px;
+}
+#work {
+  color: tomato;
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 200px;
+}
+#nav-bar {
+  /* position: fixed; */
+  background-color: red;
+  padding: 20px;
+  float: right;
+  width: 100%;
+  top: 0;
+  margin-top: auto;
+}
+@media(max-width:600px){
+    #nav-bar{
+        position: fixed;
+        padding: 10px;
+    }
+
+}
+li {
+  display: inline;
+  float: right;
+  list-style-type: none;
+}
+li a {
+  padding-right: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+a:hover {
+  background-color: rgb(9, 9, 131);
+  padding: 20px;
+  padding-right: 50px;
+}
+#heading {
+  text-decoration: none;
+  position: relative;
+}
+#heading:after {
+    content: "";
+    position: absolute;
+    left: 400px;
+    right: 400px;
+    bottom: 1px;
+    border-width: 0 0 3px;
+    border-style: solid;
+}
+@media (max-width:670px){
+    #heading{
+        left: 50px;
+        bottom: 1px;
+        border-width: 0 0 3px;
+        border-style: solid;
+        margin-bottom: 40px;;
+        text-align: center;
+        width: 400px;
+        margin-top: 4;
+    }
+}
+#projects {
+  background-color: lightslategray;
+  margin-top: 100pxpx;
+  padding: 50px;
+  color: white;
+  padding-bottom: 20px;
+}
+#links{
+  margin-top: 70px;
+  background-repeat: repeat;
+}
+@media (max-width:640px){
+  #links{
+    padding-top: 70px;
+  }
+}
+#middle{
+  color: white;
+  border-bottom: 50px;
+}
+#ppp{
+  font-style: italic;
+}
+#icons{
+  color: white;
+  margin-top: 30px;
+  font-size: 50px;
+}
+span{
+  font-size: 40px;
+}
+#horizontaly{
+  border-bottom: solid 2px red;
+  margin-bottom: 20px;
+}
+#end{
+  color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: inline;
+  
+}
+@media (max-width:600px){
+  #end{
+width: 100%;
+  }
+
+}
+#btn{
+  font-size: 20px;
+  
+}
+@media (max-width:670px){
+  #btn{
+    width: 100%;
+  }
+}
+  
